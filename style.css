@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,18 +11,26 @@ body {
 }
 
 header {
-    background-color: #ff0000;
+    background-color: rgb(239, 51, 64);
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    position: fixed;
+    position: fixed; 
     width: 100%;
     top: 0;
     z-index: 999;
 }
 
+#logo {
+    position: absolute; top: 10px; right: 10px; height: 90%;
+}
+
 header h1 {
     margin: 0;
+}
+
+h2 {
+    padding-top: 40px;
 }
 
 nav ul {
@@ -60,6 +72,6 @@ a:hover {
 }
 
 section {
-    border-left: 6px solid #ff0000;
+    border-left: 6px solid rgb(239, 51, 64);
     margin-bottom: 20px;
 }
