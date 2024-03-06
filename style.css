@@ -74,3 +74,19 @@ section {
     border-left: 6px solid rgb(239, 51, 64);
     margin-bottom: 20px;
 }
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Dla równomiernego rozłożenia filmów w kontenerze */
+}
+
+.video-wrapper {
+    width: 45%; /* Możesz dostosować szerokość do swoich potrzeb */
+    margin: 10px 0; /* Dostosuj marginesy według potrzeb */
+    text-align: center; /* Aby zawartość była wyśrodkowana */
+}
+
+iframe {
+    width: 100%;
+}
